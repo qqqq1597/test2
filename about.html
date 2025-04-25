@@ -1,16 +1,4 @@
-﻿<html lang="zh-Hant">
-<head>
-  <meta charset="UTF-8">
-  <title>手作包包</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:700&display=swap" rel="stylesheet">
-</head>
-<body>
-  <div class="cart-header">
-    <a href="cart.html" class="cart-link">
-      🛒 購物車 <span id="cart-count">0</span>
-  </a>
-</div>
+﻿<!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
@@ -19,6 +7,14 @@
   <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- 購物車連結 -->
+  <div class="cart-header">
+    <a href="cart.html" class="cart-link">
+      🛒 購物車 <span id="cart-count">0</span>
+    </a>
+  </div>
+
+  <!-- 商品區塊 -->
   <div class="album-container">
     <h1 class="title">手作包包</h1>
     <p class="subtitle">有溫度的包</p>
@@ -58,6 +54,8 @@
     </div>
   </div>
 
+  <!-- JS 放在最後 -->
+  <script src="shop.js"></script>
   <script src="cart.js"></script>
 </body>
 </html>
